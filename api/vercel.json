@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/api/proxy.js"
+    }
+  ]
+}
+🔄 4. Vercel’de Yayınla
+GitHub hesabını vercel.com’e bağla.
+
+Reponu içe aktar.
+
+Yayınla → sana özel bir URL verecek:
+https://tumblr-proxy.vercel.app
